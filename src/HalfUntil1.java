@@ -15,7 +15,7 @@ public class HalfUntil1 {
     number = in.nextInt();
 
     do {
-      number = (number / 2);
+      number /= 2; // Same as number = number / 2;
       System.out.println("Number in half: " + number);
     } while (number > 1);
   }
